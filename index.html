@@ -37,12 +37,12 @@
     <main>
       <section class="services container">
         <h2 class="services-title">Services</h2>
-        <h3 class="services-sub-title">
+        <p class="services-sub-title">
           Proin iaculis purus consequat sem cure.
-        </h3>
+        </p>
         <ul class="services-list">
           <li class="services-list-items services-list-items-basket">
-            <h4 class="services-list-items-title">E-Commerce</h4>
+            <h3 class="services-list-items-title">E-Commerce</h3>
             <p class="services-list-items-description">
               Proin iaculis purus consequat sem cure digni ssim. Donec
               porttitora entum suscipit aenean rhoncus posuere odio in
@@ -50,7 +50,7 @@
             </p>
           </li>
           <li class="services-list-items services-list-items-laptop">
-            <h4 class="services-list-items-title">Responsive Web</h4>
+            <h3 class="services-list-items-title">Responsive Web</h3>
             <p class="services-list-items-description">
               Proin iaculis purus consequat sem cure digni ssim. Donec
               porttitora entum suscipit aenean rhoncus posuere odio in
@@ -58,7 +58,7 @@
             </p>
           </li>
           <li class="services-list-items services-list-items-locked">
-            <h4 class="services-list-items-title">Web Security</h4>
+            <h3 class="services-list-items-title">Web Security</h3>
             <p class="services-list-items-description">
               Proin iaculis purus consequat sem cure digni ssim. Donec
               porttitora entum suscipit aenean rhoncus posuere odio in
@@ -68,14 +68,14 @@
         </ul>
       </section>
     </main>
-    <footer class="contact">
+    <section class="contact">
       <div class="contact-content container">
         <h2 class="contact-title">Contact Us</h2>
-        <h3 class="contact-sub-title">
+        <p class="contact-sub-title">
           Proin iaculis purus consequat sem cure.
-        </h3>
+        </p>
         <form action="#" method="GET" class="contact-info-form">
-          <section class="contact-form">
+          <div class="contact-form">
             <div class="contact-info">
               <input
                 type="text"
@@ -97,19 +97,19 @@
                 class="contact-form__input"
                 name="user-subject"
                 placeholder="Subject"
-                required
               />
             </div>
             <div class="contact-textarea">
               <textarea
                 class="contact-form__textarea"
                 name="user-massage"
-                placeholder="Your Message"
+                placeholder="Your Message *"
                 required
                 minlength="5"
+                maxlength="450"
               ></textarea>
             </div>
-          </section>
+          </div>
           <div class="contact-button">
             <button type="submit" class="contact-form__btn">
               Send Message
@@ -117,6 +117,6 @@
           </div>
         </form>
       </div>
-    </footer>
+    </section>
   </body>
 </html>
